@@ -1,0 +1,3695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <!-- Fontawesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Style -->
+    <style>
+      .nav-tabs .nav-link.active,
+      .nav-tabs .nav-item.show .nav-link {
+        color: #ffffff;
+        background-color: #060b19;
+        border-color: rgba(0, 0, 0, 0);
+        border-bottom: 5px solid #8f0000;
+      }
+      a {
+        color: #ffffff;
+      }
+      a:hover {
+        color: #ffffff;
+      }
+      .nav-tabs .nav-link {
+        margin-bottom: -1px;
+        border: none;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+      }
+    </style>
+
+    <!-- Page title -->
+    <title>Profile</title>
+  </head>
+  <body class="" style="background: #060b19">
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #060b19; border-bottom: 1px solid #0f1a39"
+    >
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Anroyalty action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- /.Navbar -->
+
+    <!-- Img Header -->
+    <div class="col-sm-11 d-flex mx-auto pt-3">
+      <img src="img/profile.png" class="img-fluid" alt="profile" />
+      <!-- Sosial Media Icon -->
+      <div
+        class="position-absolute btn-group"
+        role="group"
+        style="top: 20px; right: 20px"
+      >
+        <button type="button" class="btn btn-secondary">
+          <i
+            class="fa-brands fa-facebook-square fa-2x"
+            style="color: #060b19"
+          ></i>
+        </button>
+        <button type="button" class="btn btn-secondary">
+          <i
+            class="fa-brands fa-twitter-square fa-2x"
+            style="color: #060b19"
+          ></i>
+        </button>
+        <button type="button" class="btn btn-secondary">
+          <i
+            class="fa-brands fa-instagram-square fa-2x"
+            style="color: #060b19"
+          ></i>
+        </button>
+        <button type="button" class="btn btn-secondary">
+          <i
+            class="fa-brands fa-pinterest-square fa-2x"
+            style="color: #060b19"
+          ></i>
+        </button>
+      </div>
+    </div>
+    <!-- Profile Picture -->
+    <div class="col-sm-4 d-flex mx-auto" style="margin-top: -55px">
+      <img
+        class="d-flex mx-auto"
+        src="img/profile2.png"
+        alt="profile2"
+        style="width: 100px; height: 100px"
+      />
+    </div>
+
+    <!-- Profile Detail -->
+    <div class="col-sm-12 text-center" style="color: white">
+      <h3>Pierre Paul Jacques</h3>
+      <p style="color: gray; padding: 5px">
+        <b style="color: #f4e850">4256 </b>Followers
+        <b style="color: #f4e850; padding-left: 10px">23 </b>Following
+      </p>
+    </div>
+    <div class="col-sm-2 d-flex mx-auto justify-content-around">
+      <button type="button" class="btn btn-danger">Create</button>
+      <button type="button" class="btn" 
+      style="
+        color: white;
+        border-color: #14234a;
+        border-radius: 5px;
+      ">
+        <i class="fa-solid fa-share-nodes" style="color: white"></i>
+      </button>
+      <button type="button" class="btn" 
+      style="
+        color: white;
+        border-color: #14234a;
+        border-radius: 5px;
+      ">
+        <i class="fa-solid fa-ellipsis" style="color: white"></i>
+      </button>
+    </div>
+    <!-- Description -->
+    <div class="col-sm-7 d-flex mx-auto pt-3">
+      <p class="text-center" style="color: gray">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus non
+        ipsum in placerat. Pellentesque ante orci, mattis ac sagittis in,
+        pharetra ac est. Vivamus quis neque sed mauris tincidunt pulvinar at
+        pharetra massa. Praesent quam quam, consequat elementum sollicitudin sit
+        amet, vulputate sit amet nisi. Nulla sed enim aliquam, lobortis arcu a,
+        pulvinar arcu. Aliquam erat volutpat.
+      </p>
+    </div>
+
+    <!-- Menu header -->
+    <div class="content-wrapper col-12 d-flex mx-auto">
+      <!-- Main content -->
+      <section class="content">
+        <ul
+          class="nav nav-tabs d-flex justify-content-center"
+          id="custom-tabs-one-tab"
+          role="tablist"
+        >
+          <li class="nav-item mr-4">
+            <a
+              class="nav-link active actives text-center"
+              id="created-tab"
+              data-toggle="pill"
+              href="#created"
+              role="tab"
+              aria-controls="created"
+              aria-selected="true"
+              >Created</a
+            >
+          </li>
+          <li class="nav-item mr-4">
+            <a
+              class="nav-link text-center"
+              id="series-tab"
+              data-toggle="pill"
+              href="#series"
+              role="tab"
+              aria-controls="series"
+              aria-selected="false"
+              >Series</a
+            >
+          </li>
+          <li class="nav-item mr-4">
+            <a
+              class="nav-link text-center"
+              id="collected-tab"
+              data-toggle="pill"
+              href="#collected"
+              role="tab"
+              aria-controls="collected"
+              aria-selected="false"
+              >Collected</a
+            >
+          </li>
+          <li class="nav-item mr-4">
+            <a
+              class="nav-link text-center"
+              id="liked-tab"
+              data-toggle="pill"
+              href="#liked"
+              role="tab"
+              aria-controls="liked"
+              aria-selected="false"
+              >Liked</a
+            >
+          </li>
+          <li class="nav-item mr-4">
+            <a
+              class="nav-link text-center"
+              id="activity-tab"
+              data-toggle="pill"
+              href="#activity"
+              role="tab"
+              aria-controls="activity"
+              aria-selected="false"
+              >Activity</a
+            >
+          </li>
+          <li class="nav-item mr-4">
+            <a
+              class="nav-link text-center"
+              id="royalty-tab"
+              data-toggle="pill"
+              href="#royalty"
+              role="tab"
+              aria-controls="royalty"
+              aria-selected="false"
+              >Royalty</a
+            >
+          </li>
+          <li class="nav-item mr-4">
+            <a
+              class="nav-link text-center"
+              id="dashboard-tab"
+              data-toggle="pill"
+              href="#dashboard"
+              role="tab"
+              aria-controls="dashboard"
+              aria-selected="false"
+              >Dashboard</a
+            >
+          </li>
+        </ul>
+
+        <div class="tab-content" id="custom-tabs-one-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="created"
+            role="tabpanel"
+            aria-labelledby="created-tab"
+          >
+            <div class="col-sm-11 d-flex mx-auto">
+              <div class="pt-4">
+                <div class="d-flex flex-row justify-content-between mb-4">
+                  <div class="btn-group mr-auto">
+                    <button
+                      type="button"
+                      class="btn dropdown-toggle mr-4"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      style="
+                        color: white;
+                        border-color: #14234a;
+                        border-radius: 10px;
+                      "
+                    >
+                      <i class="fa-solid fa-tag" style="color: white"></i>
+                      Sale Type
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn dropdown-toggle mr-4"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      style="
+                        color: white;
+                        border-color: #14234a;
+                        border-radius: 10px;
+                      "
+                    >
+                      <i class="fa-regular fa-cube" style="color: white"></i>
+                      Physical Include
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn dropdown-toggle mr-4"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      style="
+                        color: white;
+                        border-color: #14234a;
+                        border-radius: 10px;
+                      "
+                    >
+                      <i
+                        class="fa-solid fa-circle-dollar"
+                        style="color: white"
+                      ></i>
+                      Price Range
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      class="btn dropdown-toggle mr-4"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      style="
+                        color: white;
+                        border-color: #14234a;
+                        border-radius: 10px;
+                      "
+                    >
+                      <i class="fa-solid fa-tag" style="color: white"></i>
+                      Filter & Sort
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-5 flex-wrap">
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <div style="color: #546082; padding-top: -50px">
+                            <p>Owner : Pierre Paul Jacques</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p class="" style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 15px;
+                        color: white;
+                      "
+                    >
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/copy.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>1/1</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                          <img
+                            src="img/heart.svg"
+                            style="padding-bottom: 11px; padding-right: 10px"
+                          />
+                          <p>123</p>
+                        </div>
+                      </div>
+                      <img
+                        src="img/dog.png"
+                        class="card-img-top"
+                        alt="profile"
+                        style="height: 185px"
+                      />
+                      <!-- <div class="col-sm-9 z-100" style="margin-left: -17px;"> -->
+                      <h6
+                        style="
+                          margin-top: -15px;
+                          background-color: #091022;
+                          border: 4px solid #ffffff;
+                        "
+                      >
+                        01:10:58:56 left
+                      </h6>
+                      <!-- </div> -->
+                      <h4 class="card-title">#1 The Dogs</h4>
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          class="mr-1"
+                          style="width: 19px; height: 19px"
+                        />
+                        <h5 class="mr-1">5300</h5>
+                        <h5 clasas="mr-1" style="color: #f4e850">KPG</h5>
+                        <p class="ml-2" style="color: #546082">(Last Bid)</p>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <img
+                          class="mr-3"
+                          src="img/profile2.png"
+                          alt="profile"
+                          style="width: 44px; height: 44px"
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <p>Pierre Paul Jacques</p>
+                            <img
+                              class="mt-2"
+                              src="img/verified.png"
+                              alt="verified"
+                              style="width: 12.5px; height: 11.67px"
+                            />
+                          </div>
+                          <p style="color: #546082">
+                            Owner : Pierre Paul Jacques
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 d-flex justify-content-center mb-5">
+              <button type="button" class="btn btn-danger">Load More</button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="series"
+            role="tabpanel"
+            aria-labelledby="series-tab"
+          ></div>
+          <div
+            class="tab-pane fade"
+            id="collected"
+            role="tabpanel"
+            aria-labelledby="collected-tab"
+          ></div>
+          <div
+            class="tab-pane fade"
+            id="liked"
+            role="tabpanel"
+            aria-labelledby="liked-tab"
+          ></div>
+
+          <div
+            class="tab-pane fade"
+            id="activity"
+            role="tabpanel"
+            aria-labelledby="activity-tab"
+          >
+            <div class="col-sm-11 d-flex mx-auto">
+              <div class="pt-4">
+                <div class="d-flex flex-row justify-content-between mb-4">
+                  <div class="btn-group mr-auto">
+                    <button
+                      type="button"
+                      class="btn dropdown-toggle mr-4"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      style="
+                        color: white;
+                        border-color: #14234a;
+                        border-radius: 10px;
+                      "
+                    >
+                      <i
+                        class="fa-solid fa-arrows-rotate"
+                        style="color: white"
+                      ></i>
+                      Activity Type
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      class="btn dropdown-toggle mr-4"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      style="
+                        color: white;
+                        border-color: #14234a;
+                        border-radius: 10px;
+                      "
+                    >
+                      <i class="fa-solid fa-tag" style="color: white"></i>
+                      Filter & Sort
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-1">
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="padding: 150px"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="royalty"
+            role="tabpanel"
+            aria-labelledby="royalty-tab"
+          >
+            <div class="col-sm-11 d-flex mx-auto">
+              <div class="pt-4">
+                <div
+                  class="alert alert-dismissible fade show"
+                  role="alert"
+                  style="
+                    color: white;
+                    border-color: #14234a;
+                    border-radius: 10px;
+                    background-color: #091022;
+                  "
+                >
+                  <p style="color: white">
+                    This is royalty section. Here you can see all transactions,
+                    where from these transactions you will get royalties from
+                    the creator according to what you have agreed on.
+                    <a href="" style="color: #f4e850">Learn more</a>
+                  </p>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="alert"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="row row-cols-1 row-cols-md-4 pt-2 pb-5">
+                  <div class="col-sm-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="card-body">
+                        <h6 class="card-title" style="color: gray">
+                          Total Asset Royalty
+                        </h6>
+                        <h3 class="card-text pt-2">10</h3>
+                        <div class="d-flex justify-content-between">
+                          <p class="pt-2" style="color: #f4e850">Assets</p>
+                          <a href="#" class="btn" style="color: #f4e850"
+                            >Detail
+                            <i class="fa-solid fa-arrow-right pl-2"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="card-body">
+                        <h6 class="card-title" style="color: gray">
+                          Total Series Royalty
+                        </h6>
+                        <h3 class="card-text pt-2">1</h3>
+                        <div class="d-flex justify-content-between">
+                          <p class="pt-2" style="color: #f4e850">Assets</p>
+                          <a href="#" class="btn" style="color: #f4e850"
+                            >Detail
+                            <i class="fa-solid fa-arrow-right pl-2"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="card-body">
+                        <h6 class="card-title" style="color: gray">
+                          Total Royalty From Assets Sales
+                        </h6>
+                        <div class="d-flex flex-row card-text pt-2">
+                          <img
+                            src="img/kepeng.png"
+                            alt="kepeng"
+                            style="width: 27px; height: 27px"
+                          />
+                          <h3 class="pl-2 pr-2">300</h3>
+                          <h3 class="pr-2" style="color: #f4e850">KPG</h3>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                          <p class="pt-2" style="color: #f4e850">$155.63</p>
+                          <a href="#" class="btn" style="color: #f4e850"
+                            >Detail
+                            <i class="fa-solid fa-arrow-right pl-2"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="card-body">
+                        <h6 class="card-title" style="color: gray">
+                          Total Royalty From Sales
+                        </h6>
+                        <div class="d-flex flex-row card-text pt-2">
+                          <img
+                            src="img/kepeng.png"
+                            alt="kepeng"
+                            style="width: 27px; height: 27px"
+                          />
+                          <h3 class="pl-2 pr-2">231</h3>
+                          <h3 class="pr-2" style="color: #f4e850">KPG</h3>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                          <p class="pt-2" style="color: #f4e850">$231.63</p>
+                          <a href="#" class="btn" style="color: #f4e850"
+                            >Detail
+                            <i class="fa-solid fa-arrow-right pl-2"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row justify-content-between mb-4">
+                  <div class="btn-group mr-auto">
+                    <button
+                      type="button"
+                      class="btn dropdown-toggle mr-4"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      style="
+                        color: white;
+                        border-color: #14234a;
+                        border-radius: 10px;
+                      "
+                    >
+                      <i class="fa-solid fa-tag" style="color: white"></i>
+                      Sale Type
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn dropdown-toggle mr-4"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      style="
+                        color: white;
+                        border-color: #14234a;
+                        border-radius: 10px;
+                      "
+                    >
+                      <i class="fa-regular fa-cube" style="color: white"></i>
+                      Physical Include
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn dropdown-toggle mr-4"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      style="
+                        color: white;
+                        border-color: #14234a;
+                        border-radius: 10px;
+                      "
+                    >
+                      <i
+                        class="fa-solid fa-circle-dollar"
+                        style="color: white"
+                      ></i>
+                      Price Range
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      class="btn dropdown-toggle mr-4"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      style="
+                        color: white;
+                        border-color: #14234a;
+                        border-radius: 10px;
+                      "
+                    >
+                      <i class="fa-solid fa-tag" style="color: white"></i>
+                      Filter & Sort
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-1">
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div
+                      class="card h-100 pl-3 pr-3 pt-3 pb-3"
+                      style="
+                        background-color: #091022;
+                        border-radius: 10px;
+                        color: white;
+                        border-color: #14234a;
+                      "
+                    >
+                      <div class="d-flex flex-row">
+                        <img
+                          src="img/dog.png"
+                          class="card-img-top"
+                          alt="dog"
+                          style="
+                            width: 120px;
+                            height: 116px;
+                            padding-right: 17px;
+                          "
+                        />
+                        <div class="d-flex flex-column">
+                          <div class="d-flex flex-row pt-4">
+                            <h5 class="card-title">
+                              Listed for
+                              <img
+                                src="img/kepeng.png"
+                                class="card-img-top"
+                                alt="kepeng"
+                                style="width: 19px; height: 19px"
+                              />
+                              1200
+                            </h5>
+                            <h5
+                              style="
+                                color: #f4e850;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                              "
+                            >
+                              KPG
+                            </h5>
+                            <h5>| #1 The Dogs</h5>
+                          </div>
+                          <p class="card-text" style="color: #546082">
+                            By
+                            <b style="color: #f4e850">TheLordEx124</b> 10/3/2022
+                            05.09
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="padding: 150px"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="dashboard"
+            role="tabpanel"
+            aria-labelledby="dashboard-tab"
+          >
+            <div class="col-sm-11 d-flex mx-auto">
+              <div class="row row-cols-1 row-cols-md-4 pt-4 pb-5 flex-wrap">
+                <div class="col-sm-4 mb-4">
+                  <div
+                    class="card h-100 pl-3 pr-3 pt-3"
+                    style="
+                      background-color: #091022;
+                      border-radius: 10px;
+                      color: white;
+                      border-color: #14234a;
+                    "
+                  >
+                    <div class="card-body">
+                      <h6 class="card-title" style="color: gray">
+                        Total Royalty From Assets Sales
+                      </h6>
+                      <div class="d-flex flex-row card-text pt-2">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          style="width: 27px; height: 27px"
+                        />
+                        <h3 class="pl-2 pr-2">300</h3>
+                        <h3 class="pr-2" style="color: #f4e850">KPG</h3>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="pt-2" style="color: #f4e850">$155.63</p>
+                        <a href="#" class="btn" style="color: #f4e850"
+                          >Detail
+                          <i class="fa-solid fa-arrow-right pl-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                  <div
+                    class="card h-100 pl-3 pr-3 pt-3"
+                    style="
+                      background-color: #091022;
+                      border-radius: 10px;
+                      color: white;
+                      border-color: #14234a;
+                    "
+                  >
+                    <div class="card-body">
+                      <h6 class="card-title" style="color: gray">
+                        Total Royalty From Sales
+                      </h6>
+                      <div class="d-flex flex-row card-text pt-2">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          style="width: 27px; height: 27px"
+                        />
+                        <h3 class="pl-2 pr-2">231</h3>
+                        <h3 class="pr-2" style="color: #f4e850">KPG</h3>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="pt-2" style="color: #f4e850">$231.63</p>
+                        <a href="#" class="btn" style="color: #f4e850"
+                          >Detail
+                          <i class="fa-solid fa-arrow-right pl-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                  <div
+                    class="card h-100 pl-3 pr-3 pt-3"
+                    style="
+                      background-color: #091022;
+                      border-radius: 10px;
+                      color: white;
+                      border-color: #14234a;
+                    "
+                  >
+                    <div class="card-body">
+                      <h6 class="card-title" style="color: gray">
+                        Total Royalty From Assets Sales
+                      </h6>
+                      <div class="d-flex flex-row card-text pt-2">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          style="width: 27px; height: 27px"
+                        />
+                        <h3 class="pl-2 pr-2">300</h3>
+                        <h3 class="pr-2" style="color: #f4e850">KPG</h3>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="pt-2" style="color: #f4e850">$155.63</p>
+                        <a href="#" class="btn" style="color: #f4e850"
+                          >Detail
+                          <i class="fa-solid fa-arrow-right pl-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                  <div
+                    class="card h-100 pl-3 pr-3 pt-3"
+                    style="
+                      background-color: #091022;
+                      border-radius: 10px;
+                      color: white;
+                      border-color: #14234a;
+                    "
+                  >
+                    <div class="card-body">
+                      <h6 class="card-title" style="color: gray">
+                        Total Royalty From Sales
+                      </h6>
+                      <div class="d-flex flex-row card-text pt-2">
+                        <img
+                          src="img/kepeng.png"
+                          alt="kepeng"
+                          style="width: 27px; height: 27px"
+                        />
+                        <h3 class="pl-2 pr-2">231</h3>
+                        <h3 class="pr-2" style="color: #f4e850">KPG</h3>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="pt-2" style="color: #f4e850">$231.63</p>
+                        <a href="#" class="btn" style="color: #f4e850"
+                          >Detail
+                          <i class="fa-solid fa-arrow-right pl-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                  <div
+                    class="card h-100 pl-3 pr-3 pt-3"
+                    style="
+                      background-color: #091022;
+                      border-radius: 10px;
+                      color: white;
+                      border-color: #14234a;
+                    "
+                  >
+                    <div class="card-body">
+                      <h6 class="card-title" style="color: gray">
+                        Total Asset Royalty
+                      </h6>
+                      <h3 class="card-text pt-2">10</h3>
+                      <div class="d-flex justify-content-between">
+                        <p class="pt-2" style="color: #f4e850">Assets</p>
+                        <a href="#" class="btn" style="color: #f4e850"
+                          >Detail
+                          <i class="fa-solid fa-arrow-right pl-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                  <div
+                    class="card h-100 pl-3 pr-3 pt-3"
+                    style="
+                      background-color: #091022;
+                      border-radius: 10px;
+                      color: white;
+                      border-color: #14234a;
+                    "
+                  >
+                    <div class="card-body">
+                      <h6 class="card-title" style="color: gray">
+                        Total Asset Royalty
+                      </h6>
+                      <h3 class="card-text pt-2">10</h3>
+                      <div class="d-flex justify-content-between">
+                        <p class="pt-2" style="color: #f4e850">Assets</p>
+                        <a href="#" class="btn" style="color: #f4e850"
+                          >Detail
+                          <i class="fa-solid fa-arrow-right pl-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                  <div
+                    class="card h-100 pl-3 pr-3 pt-3"
+                    style="
+                      background-color: #091022;
+                      border-radius: 10px;
+                      color: white;
+                      border-color: #14234a;
+                    "
+                  >
+                    <div class="card-body">
+                      <h6 class="card-title" style="color: gray">
+                        Total Asset Royalty
+                      </h6>
+                      <h3 class="card-text pt-2">10</h3>
+                      <div class="d-flex justify-content-between">
+                        <p class="pt-2" style="color: #f4e850">Assets</p>
+                        <a href="#" class="btn" style="color: #f4e850"
+                          >Detail
+                          <i class="fa-solid fa-arrow-right pl-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                  <div
+                    class="card h-100 pl-3 pr-3 pt-3"
+                    style="
+                      background-color: #091022;
+                      border-radius: 10px;
+                      color: white;
+                      border-color: #14234a;
+                    "
+                  >
+                    <div class="card-body">
+                      <h6 class="card-title" style="color: gray">
+                        Total Asset Royalty
+                      </h6>
+                      <h3 class="card-text pt-2">10</h3>
+                      <div class="d-flex justify-content-between">
+                        <p class="pt-2" style="color: #f4e850">Assets</p>
+                        <a href="#" class="btn" style="color: #f4e850"
+                          >Detail
+                          <i class="fa-solid fa-arrow-right pl-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="padding: 150px"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- <div class="col-sm-12" style="border-bottom: 1px solid white;"></div> -->
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
